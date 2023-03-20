@@ -1,8 +1,8 @@
-* {
+*,*::before,*::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-size: "popins";
+  font-family: 'Poppins', 'sans-serif';
 }
 .wrapper {
   width: 100vw;
@@ -81,5 +81,5 @@
     display: flex;
 }
 .win{
-    background-color: rgba( green);
+    background-color: rgba(0,255,0,0.3);
 }
